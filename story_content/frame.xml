@@ -1,0 +1,2293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns01001010011" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
+  <layouts>
+    <layout name="npnxnanbsnfns01001010011" font="Open Sans" controllayout="npnxnanbsnfns01001010011" colorscheme="pxabnsnfns01001010011" string_table="pxabnsnfns01001010011" />
+    <layout name="pxabnsnfns01001010011" font="Open Sans" controllayout="pxabnsnfns01001010011" colorscheme="pxabnsnfns01001010011" string_table="pxabnsnfns01001010011" />
+    <layout name="npxnabnsnfns01001010011" font="Open Sans" controllayout="npxnabnsnfns01001010011" colorscheme="pxabnsnfns01001010011" string_table="pxabnsnfns01001010011" />
+    <layout name="npnxnanbnsnfns01001010011" font="Open Sans" controllayout="npnxnanbnsnfns01001010011" colorscheme="pxabnsnfns01001010011" string_table="pxabnsnfns01001010011" />
+    <layout name="pxabnsnfns01001010010" font="Open Sans" controllayout="pxabnsnfns01001010010" colorscheme="pxabnsnfns01001010011" string_table="pxabnsnfns01001010011" />
+    <layout name="pxnanbsnfns01001010011" font="Open Sans" controllayout="pxnanbsnfns01001010011" colorscheme="pxabnsnfns01001010011" string_table="pxabnsnfns01001010011" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="true">
+            <options>
+              <option name="title_text" value="Training" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="true">
+            <options>
+              <option name="logo_url" value="story_content\6LZwDu9aqF4_DX1024_DY1024.swf" />
+              <option name="html5_logo_url" value="mobile/6JgVS2pSJL5.png" />
+            </options>
+          </option>
+          <option name="sidebar_enabled" value="true">
+            <options>
+              <option name="sidebarpos" value="left" />
+              <option name="closed" value="false" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="resources" value="false" group="linkright" />
+              <listitem name="outline" value="true" group="sidebar" />
+              <listitem name="glossary" value="true" group="sidebar" />
+              <listitem name="transcript" value="false" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="elapsed" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+          <option name="logoAltText" value="Smartlyte_Trans.png" />
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="true" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="false" />
+          <option name="enableresultsicons" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="false" />
+          <option name="seekbar" value="false">
+            <options>
+              <option name="readonly" value="false" />
+              <option name="readonlyOnce" value="false" />
+            </options>
+          </option>
+          <option name="pauseplay" value="false" />
+          <option name="replay" value="false" />
+          <option name="search" value="true" />
+          <option name="closed_captions" value="false">
+            <options>
+              <option name="font" value="Open Sans" />
+            </options>
+          </option>
+          <option name="settings" value="true" />
+          <option name="fullScreenToggle" value="false" />
+          <option name="playbackSpeedControl" value="false" />
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns01001010011">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns01001010011">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns01001010011">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns01001010011">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns01001010010">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+    <control_layout name="pxnanbsnfns01001010011">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="pxabnsnfns01001010011">
+      <color_group name="accessibility">
+        <group_colors>
+          <color name="focus_rect">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFF00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanel">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C2280" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="title_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanelpopup">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C2280" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bio_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00D7FF" alpha="100" stop="0" />
+                <color rgb="0x00ABFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+                <color rgb="0xFCCC2A" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xEAEAEA" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF3F3F3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF7F7F7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD3D3D3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+                <color rgb="0xAFAFAF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+                <color rgb="0xF4F4F4" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDFDFDF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE6E6E6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x909090" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC0E2F1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD3D3D3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF7F7F7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xF3F3F3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDBDBDB" alpha="100" stop="0" />
+                <color rgb="0xC3C3C3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+                <color rgb="0xAFAFAF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+                <color rgb="0xF4F4F4" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCFCFCF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x33CC00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6BF8FF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF3F3F3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0xDEDEDE" alpha="100" stop="0" />
+                <color rgb="0xE8E8E8" alpha="100" stop="128" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF6F6F6" alpha="100" stop="0" />
+                <color rgb="0xF3F3F3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC4C4C4" alpha="100" stop="0" />
+                <color rgb="0xB2B2B2" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCBCBCB" alpha="100" stop="0" />
+                <color rgb="0xBABABA" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9D9D9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA7A7A7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCFCFCF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDFDFDF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xADADAD" alpha="100" stop="0" />
+                <color rgb="0xFAFAFA" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8A8A8A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6BF8FF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8A8A8A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+                <color rgb="0xEEEEEE" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE7E7E7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF3F3F3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE1E1E1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC6C6C6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF9F9F9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE1E1E1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE0E0E0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC0E2F1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE6E6E6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2E2E2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2E2E2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE7E7E7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA5A5A5" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD4D4D4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC8C8C8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBCBCBC" alpha="100" stop="0" />
+                <color rgb="0xBCBCBC" alpha="100" stop="128" />
+                <color rgb="0xC3C3C3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="pxabnsnfns01001010011">
+      <string id="three_image_progress_audio">progress</string>
+      <string id="three_image_audio">audio</string>
+      <string id="three_image_camera_down">camera moved down</string>
+      <string id="three_image_camera_left">camera moved left</string>
+      <string id="three_image_camera_right">camera moved right</string>
+      <string id="three_image_camera_up">camera moved up</string>
+      <string id="three_image_interaction_free">free exploration mode</string>
+      <string id="three_image_interaction_guided">guided tour mode</string>
+      <string id="three_image_hotspot">hotspot</string>
+      <string id="three_image_instructions">Use the w, a, s, and d keys to move around the 360 degree image. Press the tab key to jump to interactive markers and hotspots.</string>
+      <string id="three_image_interaction">360 degree image interaction</string>
+      <string id="three_image_label">label</string>
+      <string id="three_image_marker">marker</string>
+      <string id="three_image_items">items</string>
+      <string id="three_image_interaction_next">next</string>
+      <string id="three_image_pause_audio">pause audio</string>
+      <string id="three_image_pause_video">pause video</string>
+      <string id="three_image_play_audio">play audio</string>
+      <string id="three_image_play_video">play video</string>
+      <string id="three_image_interaction_prev">previous</string>
+      <string id="three_image_visited">visited</string>
+      <string id="three_image_of">of</string>
+      <string id="three_image_count_of_total">%count% of %total%</string>
+      <string id="acc_three_image_step_count_of_total">step %count% of %total%</string>
+      <string id="three_image_item">item</string>
+      <string id="three_image_interaction_step">step</string>
+      <string id="three_image_tooltip">tooltip</string>
+      <string id="three_image_total_items">%total% items</string>
+      <string id="three_image_total_item">%total% item</string>
+      <string id="three_image_progress_video">progress</string>
+      <string id="three_image_video">video</string>
+      <string id="three_image_video_volume">video volume</string>
+      <string id="acc_three_image_count_of_total_items_visited">%count% of %total% items visited</string>
+      <string id="acc_three_image_count_of_total_item_visited">%count% of %total% item visited</string>
+      <string id="three_image_count_of_total_visited">%count% of %total% visited</string>
+      <string id="accessible_text">Accessible text</string>
+      <string id="acc_enter_fullscreen">Enter full-screen mode</string>
+      <string id="acc_exit_fullscreen">Exit full-screen mode</string>
+      <string id="keyboardshortcuts_lower">Keyboard shortcuts</string>
+      <string id="zoom_to_fit">Zoom to fit</string>
+      <string id="modern_video_settings_close">close video settings</string>
+      <string id="acc_modern_video_fullscreen">full-screen video</string>
+      <string id="modern_video_playback_settings">Video Playback Settings</string>
+      <string id="modern_video_captions_off">Off</string>
+      <string id="modern_video_captions_on">On</string>
+      <string id="modern_video_captions_label">Captions</string>
+      <string id="acc_modern_video_settings">video settings</string>
+      <string id="acc_modern_video_mute">mute video</string>
+      <string id="modern_video_normal_speed">Normal</string>
+      <string id="acc_modern_video_pause">pause video</string>
+      <string id="acc_modern_video_pip">picture-in-picture</string>
+      <string id="acc_modern_video_play">play video</string>
+      <string id="modern_video_playback_speed_title">Playback Speed</string>
+      <string id="acc_modern_video_captions">video captions</string>
+      <string id="acc_modern_video_playback_speed">playback speed</string>
+      <string id="acc_modern_video_volume">video volume</string>
+      <string id="acc_active">active</string>
+      <string id="alt_key">Alt</string>
+      <string id="check_include">Check to include</string>
+      <string id="clear">Clear and return to menu</string>
+      <string id="close">Close</string>
+      <string id="acc_closed_captions">Closed captions.</string>
+      <string id="closed_captions_tip">Toggle captions</string>
+      <string id="continue">Continue</string>
+      <string id="continueresponsive">Continue</string>
+      <string id="playback_speed_title">Playback Speed</string>
+      <string id="playback_speed_normal">Normal</string>
+      <string id="acc_playback_speed">playback speed</string>
+      <string id="ctrl_key">Ctrl</string>
+      <string id="enable_keyboardshortcuts">Enable keyboard shortcuts</string>
+      <string id="enter_key">Enter</string>
+      <string id="exit">Exit</string>
+      <string id="filter">Filter</string>
+      <string id="finish">FINISH</string>
+      <string id="acc_finish">finish</string>
+      <string id="definition">Definition</string>
+      <string id="acc_definition">definition</string>
+      <string id="glossary">Glossary</string>
+      <string id="terms">Terms</string>
+      <string id="progress_hour">hour</string>
+      <string id="progress_hours">hours</string>
+      <string id="action">Action</string>
+      <string id="keyboardshortcuts">Keyboard Shortcuts</string>
+      <string id="shortcuthelp">List keyboard shortcuts</string>
+      <string id="mute_shortcut">Mute / unmute</string>
+      <string id="next_shortcut">Next slide</string>
+      <string id="playpause_shortcut">Play / pause</string>
+      <string id="previous_shortcut">Previous slide</string>
+      <string id="replay_shortcut">Replay slide</string>
+      <string id="shortcut">Shortcut</string>
+      <string id="submit_shortcut">Submit slide</string>
+      <string id="acctext_shortcut">Toggle accessible text</string>
+      <string id="closedcaptions_shortcut">Toggle closed captions</string>
+      <string id="fullscreen_shortcut">Toggle full-screen mode</string>
+      <string id="togglezoom">Toggle zoom to fit</string>
+      <string id="outline">Menu</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="progress_minute">minute</string>
+      <string id="progress_minutes">minutes</string>
+      <string id="mute_tip">Mute</string>
+      <string id="next">NEXT</string>
+      <string id="acc_next">next</string>
+      <string id="next_slide_tip">Next slide</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="transcript">Notes</string>
+      <string id="bio">Bio</string>
+      <string id="more_info">More info</string>
+      <string id="closed_captions">Captions</string>
+      <string id="acc_pause">pause</string>
+      <string id="pause_tip">Pause</string>
+      <string id="acc_play">play</string>
+      <string id="play_tip">Play</string>
+      <string id="send_an_email">Send an email</string>
+      <string id="prev">PREV</string>
+      <string id="acc_previous">previous</string>
+      <string id="previous_slide_tip">Previous slide</string>
+      <string id="question_list">Question List</string>
+      <string id="replay_tip">Replay</string>
+      <string id="acc_replay">replay</string>
+      <string id="resources">Resources</string>
+      <string id="acc_resources">resources</string>
+      <string id="restart">Restart</string>
+      <string id="resume">Resume</string>
+      <string id="acc_locked">locked</string>
+      <string id="acc_search_input">search</string>
+      <string id="search_toggle">Search</string>
+      <string id="sidebar_toggle">Sidebar Toggle</string>
+      <string id="acc_slide_progress">slide progress</string>
+      <string id="desktop_start">Start Course</string>
+      <string id="mobile_start">Start Course</string>
+      <string id="acc_visited">visited</string>
+      <string id="search">Search...</string>
+      <string id="search_in">Search in:</string>
+      <string id="search_results">Search Results</string>
+      <string id="progress_second">second</string>
+      <string id="progress_seconds">seconds</string>
+      <string id="settings_tip">Settings</string>
+      <string id="shift_key">Shift</string>
+      <string id="acc_skipnavigation">Back to top</string>
+      <string id="slide_text_chk">Slide Text</string>
+      <string id="spacebar_key">Space</string>
+      <string id="streaming_video_local_playback_learn_more">Learn More</string>
+      <string id="streaming_video_local_playback_republish">To watch this video, use the preview feature in Storyline 360, upload your published output to a server, publish to Review 360, or switch to static video quality.</string>
+      <string id="streaming_video_local_playback_title">Streaming video is unavailable for local playback.</string>
+      <string id="submitall">SUBMIT ALL</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="submit">SUBMIT</string>
+      <string id="acc_submit">submit</string>
+      <string id="submit_tip">Submit</string>
+      <string id="unmute_tip">Unmute</string>
+      <string id="acc_volume">volume</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Open Sans">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+    <font name="Arial">
+      <files>
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+    <font name="Calibri">
+      <files>
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.6AzysAz47mY" displaytext="Introduction" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6AzysAz47mY.5aoG9H2w2XN" displaytext="Introduction" expand="false" type="slide" />
+            <slidelink slideid="_player.6AzysAz47mY.6BHLXQa9nR4" displaytext="What Will This Training Cover?" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5irHc7mJkHi" displaytext="Research Ethics" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5irHc7mJkHi.6Amh6AOgR9d" displaytext="Introduction" expand="false" type="slide" />
+            <slidelink slideid="_player.5irHc7mJkHi.5bDueFVkrCh" displaytext="Informed Consent" expand="false" type="slide" />
+            <slidelink slideid="_player.5irHc7mJkHi.6E28Z6yNAcE" displaytext="Example 1" expand="false" type="slide" />
+            <slidelink slideid="_player.5irHc7mJkHi.6DhAPeq8E7M" displaytext="Checklist" expand="false" type="slide" />
+            <slidelink slideid="_player.5irHc7mJkHi.6gGTwwhPV6X" displaytext="Confidentiality" expand="false" type="slide" />
+            <slidelink slideid="_player.5irHc7mJkHi.6QCDwg1bdFr" displaytext="Example 2" expand="false" type="slide" />
+            <slidelink slideid="_player.5irHc7mJkHi.6Dk5cImQZOM" displaytext="Ethical Dilemmas" expand="false" type="slide" />
+            <slidelink slideid="_player.5irHc7mJkHi.68Jpeojn5A4" displaytext="Example 3" expand="false" type="slide" />
+            <slidelink slideid="_player.5irHc7mJkHi.5WwXZw4ZQIh" displaytext="Example 4" expand="false" type="slide" />
+            <slidelink slideid="_player.5irHc7mJkHi.5eKQTv5gznk" displaytext="Summary" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.68HEAOKgemV" displaytext="Data Collection" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.68HEAOKgemV.5VAZ73VziKY" displaytext="Introduction" expand="false" type="slide" />
+            <slidelink slideid="_player.68HEAOKgemV.5VKvC2MPpl7" displaytext="Data Collection" expand="false" type="slide" />
+            <slidelink slideid="_player.68HEAOKgemV.6Ok8JnSgCCg" displaytext="Surveys" expand="false" type="slide" />
+            <slidelink slideid="_player.68HEAOKgemV.60ug1BTIM4J" displaytext="Survey Example 1" expand="false" type="slide" />
+            <slidelink slideid="_player.68HEAOKgemV.6DpsIYcCSbX" displaytext="Survey Example 2" expand="false" type="slide" />
+            <slidelink slideid="_player.68HEAOKgemV.6WvDIcs61Qi" displaytext="Survey Example 3" expand="false" type="slide" />
+            <slidelink slideid="_player.68HEAOKgemV.6mNYwmb4g5R" displaytext="Interviews" expand="false" type="slide" />
+            <slidelink slideid="_player.68HEAOKgemV.5gSnp3CU87e" displaytext="Interview Example" expand="false" type="slide" />
+            <slidelink slideid="_player.68HEAOKgemV.6eVOe5yGvHb" displaytext="Focus Group" expand="false" type="slide" />
+            <slidelink slideid="_player.68HEAOKgemV.6Ou2ZbZhwz4" displaytext="Focus Group Example" expand="false" type="slide" />
+            <slidelink slideid="_player.68HEAOKgemV.5wZbqJ08zMg" displaytext="Cultural Appropriateness" expand="false" type="slide" />
+            <slidelink slideid="_player.68HEAOKgemV.6hpUsqyXowB" displaytext="Cultural Example" expand="false" type="slide" />
+            <slidelink slideid="_player.68HEAOKgemV.6L5gbPKUC5A" displaytext="Summary" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.69NLDoW8Y6I" displaytext="Writing and Presenting Research" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.69NLDoW8Y6I.5a89RiSaNie" displaytext="Introduction" expand="false" type="slide" />
+            <slidelink slideid="_player.69NLDoW8Y6I.5q10uuGL3b1" displaytext="Writing Research Reports" expand="false" type="slide" />
+            <slidelink slideid="_player.69NLDoW8Y6I.5bxllSyFLLU" displaytext="Example 1" expand="false" type="slide" />
+            <slidelink slideid="_player.69NLDoW8Y6I.5X1YrMrfVcP" displaytext="Different Audiences" expand="false" type="slide" />
+            <slidelink slideid="_player.69NLDoW8Y6I.5yECwZCd7Xi" displaytext="Example 2" expand="false" type="slide" />
+            <slidelink slideid="_player.69NLDoW8Y6I.6KqdyL71GsO" displaytext="Visual Presentation" expand="false" type="slide" />
+            <slidelink slideid="_player.69NLDoW8Y6I.5pXy4G4938C" displaytext="Example 3" expand="false" type="slide" />
+            <slidelink slideid="_player.69NLDoW8Y6I.6oR9N6nJXKC" displaytext="Effective Communication Strategies" expand="false" type="slide" />
+            <slidelink slideid="_player.69NLDoW8Y6I.63U5sxSCZl6" displaytext="Example 4" expand="false" type="slide" />
+            <slidelink slideid="_player.69NLDoW8Y6I.6ThKtlwWfME" displaytext="Summary" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5WjwJDwDymZ" displaytext="Cultural Competency" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5WjwJDwDymZ.5aGuC69E0gV" displaytext="Introduction" expand="false" type="slide" />
+            <slidelink slideid="_player.5WjwJDwDymZ.5nJhDJmpqb7" displaytext="Cultural Competency" expand="false" type="slide" />
+            <slidelink slideid="_player.5WjwJDwDymZ.5al9P2SFKvp" displaytext="Example 1" expand="false" type="slide" />
+            <slidelink slideid="_player.5WjwJDwDymZ.6J5IswApK4s" displaytext="Example 2" expand="false" type="slide" />
+            <slidelink slideid="_player.5WjwJDwDymZ.6Dc8mbuq5Sh" displaytext="Diverse Communities" expand="false" type="slide" />
+            <slidelink slideid="_player.5WjwJDwDymZ.5fwQ89haDmp" displaytext="Example 3" expand="false" type="slide" />
+            <slidelink slideid="_player.5WjwJDwDymZ.5ZBKysj1a0K" displaytext="Example 4" expand="false" type="slide" />
+            <slidelink slideid="_player.5WjwJDwDymZ.5u825xepELd" displaytext="Cultural Barriers" expand="false" type="slide" />
+            <slidelink slideid="_player.5WjwJDwDymZ.6lBSYAtVQOU" displaytext="Example 5" expand="false" type="slide" />
+            <slidelink slideid="_player.5WjwJDwDymZ.65CZtaf8ASQ" displaytext="Example 6" expand="false" type="slide" />
+            <slidelink slideid="_player.5WjwJDwDymZ.5pNv2cpH4xN" displaytext="Ethical Conduct" expand="false" type="slide" />
+            <slidelink slideid="_player.5WjwJDwDymZ.6kEW7tdAYoK" displaytext="Example 7" expand="false" type="slide" />
+            <slidelink slideid="_player.5WjwJDwDymZ.5bXhK0mOkn2" displaytext="Summary" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6SZZvwdaiKm" displaytext="Community Engagement" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6SZZvwdaiKm.6eUm6D4p6Le" displaytext="Introduction" expand="false" type="slide" />
+            <slidelink slideid="_player.6SZZvwdaiKm.6KOXjoQ43od" displaytext="Community Engagement" expand="false" type="slide" />
+            <slidelink slideid="_player.6SZZvwdaiKm.68IyMae8XIl" displaytext="Example 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6SZZvwdaiKm.6hGpjXLOiSY" displaytext="Example 2" expand="false" type="slide" />
+            <slidelink slideid="_player.6SZZvwdaiKm.6eMH3xa63L4" displaytext="Benefits" expand="false" type="slide" />
+            <slidelink slideid="_player.6SZZvwdaiKm.6ZmydKuadut" displaytext="Example 3" expand="false" type="slide" />
+            <slidelink slideid="_player.6SZZvwdaiKm.6jVHkVhFCrA" displaytext="Example 4" expand="false" type="slide" />
+            <slidelink slideid="_player.6SZZvwdaiKm.6V8sM1UeL42" displaytext="Collaborative Research" expand="false" type="slide" />
+            <slidelink slideid="_player.6SZZvwdaiKm.6jUyrBPj7VZ" displaytext="Example 5" expand="false" type="slide" />
+            <slidelink slideid="_player.6SZZvwdaiKm.6AxLXczIK8E" displaytext="Ethical Considerations" expand="false" type="slide" />
+            <slidelink slideid="_player.6SZZvwdaiKm.68yy18XTdiY" displaytext="Example 6" expand="false" type="slide" />
+            <slidelink slideid="_player.6SZZvwdaiKm.5cQyakr7t62" displaytext="Summary" expand="false" type="slide" />
+          </links>
+        </slidelink>
+      </links>
+    </outline>
+    <search>
+      <slidetext slideid="6AzysAz47mY.5aoG9H2w2XN" slidebank="false" type="slide">training for community peer researchers get started get started get started get started get started get started</slidetext>
+      <slidetext slideid="6AzysAz47mY.6BHLXQa9nR4" slidebank="false" type="slide">what will this training cover? research ethics research design data collection data analysis writing and presenting research cultural competency personal development</slidetext>
+      <slidetext slideid="5irHc7mJkHi.6Amh6AOgR9d" slidebank="false" type="slide">module 1 research ethics</slidetext>
+      <slidetext slideid="5irHc7mJkHi.5bDueFVkrCh" slidebank="false" type="slide">document their agreement. confirm participants understand the information. participants must choose freely to join. explain the project, its goals, and any risks. understanding informed consent use a consent form capacity to consent voluntary participation full disclosure of research purpose</slidetext>
+      <slidetext slideid="5irHc7mJkHi.6E28Z6yNAcE" slidebank="false" type="slide">understanding informed consent include consent option in surveys explain purpose before interviews</slidetext>
+      <slidetext slideid="5irHc7mJkHi.6DhAPeq8E7M" slidebank="false" type="slide">examples of informed consent clearly explained the aim of the study. clearly explained the aim of the study. clearly explained the aim of the study. clearly explained the aim of the study. clearly explained the aim of the study. clearly explained the aim of the study. informed participants about the activities or tasks they’ll engage in. informed participants about the activities or tasks they’ll engage in. informed participants about the activities or tasks they’ll engage in. informed participants about the activities or tasks they’ll engage in. informed participants about the activities or tasks they’ll engage in. informed participants about the activities or tasks they’ll engage in. provided an estimate of the time required for participation. provided an estimate of the time required for participation. provided an estimate of the time required for participation. provided an estimate of the time required for participation. provided an estimate of the time required for participation. provided an estimate of the time required for participation. explained how data will be collected, stored, and used. explained how data will be collected, stored, and used. explained how data will be collected, stored, and used. explained how data will be collected, stored, and used. explained how data will be collected, stored, and used. explained how data will be collected, stored, and used. assured anonymity (if applicable) and explained privacy protections. assured anonymity (if applicable) and explained privacy protections. assured anonymity (if applicable) and explained privacy protections. assured anonymity (if applicable) and explained privacy protections. assured anonymity (if applicable) and explained privacy protections. assured anonymity (if applicable) and explained privacy protections. stressed that participation is voluntary and can be withdrawn at any time. stressed that participation is voluntary and can be withdrawn at any time. stressed that participation is voluntary and can be withdrawn at any time. stressed that participation is voluntary and can be withdrawn at any time. stressed that participation is voluntary and can be withdrawn at any time. stressed that participation is voluntary and can be withdrawn at any time. outlined any potential risks, even if they are minimal outlined any potential risks, even if they are minimal outlined any potential risks, even if they are minimal outlined any potential risks, even if they are minimal outlined any potential risks, even if they are minimal outlined any potential risks, even if they are minimal explained any benefits participants may receive. explained any benefits participants may receive. explained any benefits participants may receive. explained any benefits participants may receive. explained any benefits participants may receive. explained any benefits participants may receive. provided details for questions provided details for questions provided details for questions provided details for questions provided details for questions provided details for questions obtained consent through signature, verbal agreement, or online checkbox. obtained consent through signature, verbal agreement, or online checkbox. obtained consent through signature, verbal agreement, or online checkbox. obtained consent through signature, verbal agreement, or online checkbox. obtained consent through signature, verbal agreement, or online checkbox. obtained consent through signature, verbal agreement, or online checkbox.</slidetext>
+      <slidetext slideid="5irHc7mJkHi.6gGTwwhPV6X" slidebank="false" type="slide">confidentiality and data protection anonymity and pseudonymity secure data storage limited access to data consent for data sharing</slidetext>
+      <slidetext slideid="5irHc7mJkHi.6QCDwg1bdFr" slidebank="false" type="slide">confidentiality and data protection imagine you are conducting a research study on employee mental health. you’re interviewing participants and need to ensure that personal data remains confidential. how would you store the recorded interviews to protect confidentiality? in an unlocked folder on a shared drive. in an unlocked folder on a shared drive. in an unlocked folder on a shared drive. in an unlocked folder on a shared drive. in an unlocked folder on a shared drive. in an unlocked folder on a shared drive. in a password-protected folder, accessible only to authorised staff. in a password-protected folder, accessible only to authorised staff. in a password-protected folder, accessible only to authorised staff. in a password-protected folder, accessible only to authorised staff. in a password-protected folder, accessible only to authorised staff. in a password-protected folder, accessible only to authorised staff. on a usb with no access restrictions. on a usb with no access restrictions. on a usb with no access restrictions. on a usb with no access restrictions. on a usb with no access restrictions. on a usb with no access restrictions.</slidetext>
+      <slidetext slideid="5irHc7mJkHi.6Dk5cImQZOM" slidebank="false" type="slide">ethical dilemmas in research communicate openly seek guidance and reflect on actions consult ethical guidelines</slidetext>
+      <slidetext slideid="5irHc7mJkHi.68Jpeojn5A4" slidebank="false" type="slide">ethical dilemmas in research you’re reviewing survey responses and notice that a participant has given unlikely answers to several questions, such as stating they work 100 hours per week. how would you handle this? disregard the data entirely. disregard the data entirely. disregard the data entirely. disregard the data entirely. disregard the data entirely. disregard the data entirely. respect the response, but flag it for further review. respect the response, but flag it for further review. respect the response, but flag it for further review. respect the response, but flag it for further review. respect the response, but flag it for further review. respect the response, but flag it for further review. contact the participant to clarify. contact the participant to clarify. contact the participant to clarify. contact the participant to clarify. contact the participant to clarify. contact the participant to clarify.</slidetext>
+      <slidetext slideid="5irHc7mJkHi.5WwXZw4ZQIh" slidebank="false" type="slide">  below are several words that represent different approaches to handling ethical dilemmas in research. please drag and drop the words into the boxes that best describe your opinion on how to handle a situation where a participant has shared potentially sensitive information about workplace conflict. confidentiality consultation support immediate action non-interference ethical dilemmas in research</slidetext>
+      <slidetext slideid="5irHc7mJkHi.5eKQTv5gznk" slidebank="false" type="slide">module 1 summary ethics essentials: consent, confidentiality, handling dilemmas</slidetext>
+      <slidetext slideid="68HEAOKgemV.5VAZ73VziKY" slidebank="false" type="slide">module 3 data collection</slidetext>
+      <slidetext slideid="68HEAOKgemV.5VKvC2MPpl7" slidebank="false" type="slide">data collection data collection foundation of meaningful research purpose: gather accurate, reliable information focus areas: various methods (surveys, interviews, focus groups) cultural appropriateness in methods</slidetext>
+      <slidetext slideid="68HEAOKgemV.6Ok8JnSgCCg" slidebank="false" type="slide">surveys effective for large groups key tips: use clear, concise questions mix closed- and open-ended questions design user-friendly layout pilot test with a small group make accessible for all (e.g., language, literacy levels)</slidetext>
+      <slidetext slideid="68HEAOKgemV.60ug1BTIM4J" slidebank="false" type="slide"> 1 2 3 4 5      rate your experiences. how would you rate access to healthcare services in your area? how fair is the healthcare system in serving all patients? how well do healthcare providers meet individual needs? how accessible are healthcare facilities to you? how effective is healthcare policy in reducing treatment barriers? survey - example</slidetext>
+      <slidetext slideid="68HEAOKgemV.6DpsIYcCSbX" slidebank="false" type="slide">  please share any specific challenges you face in accessing healthcare services in your area. survey - example</slidetext>
+      <slidetext slideid="68HEAOKgemV.6WvDIcs61Qi" slidebank="false" type="slide"> which healthcare services do you feel are lacking or need improvement in your community? primary care (general practitioners) primary care (general practitioners) primary care (general practitioners) primary care (general practitioners) primary care (general practitioners) primary care (general practitioners) specialized care (e.g., cardiology, oncology) specialized care (e.g., cardiology, oncology) specialized care (e.g., cardiology, oncology) specialized care (e.g., cardiology, oncology) specialized care (e.g., cardiology, oncology) specialized care (e.g., cardiology, oncology) mental health services mental health services mental health services mental health services mental health services mental health services dental services dental services dental services dental services dental services dental services other other other other other other survey - example</slidetext>
+      <slidetext slideid="68HEAOKgemV.6mNYwmb4g5R" slidebank="false" type="slide">interviews in-depth insights and perspectives prepare an open-ended question guide create a comfortable interview setting actively listen with empathy use follow-up questions to explore further respect cultural norms and sensitivities</slidetext>
+      <slidetext slideid="68HEAOKgemV.5gSnp3CU87e" slidebank="false" type="slide">sample interview stop conversion stop conversion stop conversion stop conversion stop conversion stop conversion resume conversion resume conversion resume conversion resume conversion resume conversion resume conversion</slidetext>
+      <slidetext slideid="68HEAOKgemV.6eVOe5yGvHb" slidebank="false" type="slide">focus group interview group discussion for diverse insights recruit participants with varied perspectives use a flexible discussion guide create an inclusive, respectful environment encourage active participation record or take detailed notes (with permission)</slidetext>
+      <slidetext slideid="68HEAOKgemV.6Ou2ZbZhwz4" slidebank="false" type="slide">focus group interview example example focus group: parent opinions on school health program discussion points: benefits of the proposed program concerns regarding implementation suggestions for improvement</slidetext>
+      <slidetext slideid="68HEAOKgemV.5wZbqJ08zMg" slidebank="false" type="slide">cultural appropriateness respect participants' backgrounds and values adapt methods to be culturally sensitive use familiar language and terms be mindful of cultural norms and traditions train interviewers in cultural awareness seek community or expert feedback on materials</slidetext>
+      <slidetext slideid="68HEAOKgemV.6hpUsqyXowB" slidebank="false" type="slide">example of cultural appropriateness example: interviews with immigrant communities considerations: use interpreters when necessary adapt language for clarity and cultural relevance respect cultural nuances in responses</slidetext>
+      <slidetext slideid="68HEAOKgemV.6L5gbPKUC5A" slidebank="false" type="slide">module 3 summary importance of accurate, reliable data collection. overview of methods: surveys, interviews, focus groups. role of cultural appropriateness in effective data collection</slidetext>
+      <slidetext slideid="69NLDoW8Y6I.5a89RiSaNie" slidebank="false" type="slide">module 5 writing and presenting research</slidetext>
+      <slidetext slideid="69NLDoW8Y6I.5q10uuGL3b1" slidebank="false" type="slide">writing research reports purpose: convey findings in a structured format key tips: structure with clear sections (introduction, methods, results, discussion). write concisely, avoiding jargon. use tables, figures, or graphs to support findings. cite sources properly.</slidetext>
+      <slidetext slideid="69NLDoW8Y6I.5bxllSyFLLU" slidebank="false" type="slide">writing research reports example example topic: digital health interventions and patient outcomes. report structure: introduction: background on digital health in patient care. methods: data collection and analysis. results: impact on patient outcomes. discussion: implications and recommendations.</slidetext>
+      <slidetext slideid="69NLDoW8Y6I.5X1YrMrfVcP" slidebank="false" type="slide">adapting to different audiences audience adaptation: tailor message to audience needs. approaches: academic: use formal, technical language; focus on theory and methods. policy: highlight practical implications and recommendations. community: use simple language and relatable examples.</slidetext>
+      <slidetext slideid="69NLDoW8Y6I.5yECwZCd7Xi" slidebank="false" type="slide">adapting to different audiences example example topic: community health program benefits. approach: for policymakers: emphasise cost-effectiveness and public health impact. for community: focus on personal stories and positive local impact</slidetext>
+      <slidetext slideid="69NLDoW8Y6I.6KqdyL71GsO" slidebank="false" type="slide">visual presentation of findings visual aids: enhance clarity and engagement. techniques: use clear, concise slides with key points. incorporate charts, graphs, and infographics. add relevant images or illustrations to support concepts.</slidetext>
+      <slidetext slideid="69NLDoW8Y6I.5pXy4G4938C" slidebank="false" type="slide">example of visual presentation example topic: barriers to healthcare access visuals used: maps to show geographic disparities. charts to display statistical data. infographics to summarise key barriers</slidetext>
+      <slidetext slideid="69NLDoW8Y6I.6oR9N6nJXKC" slidebank="false" type="slide">effective communication strategies know your audience: tailor language and examples highlight relevance: emphasise significance and practical implications use storytelling: engage with relatable stories or examples</slidetext>
+      <slidetext slideid="69NLDoW8Y6I.63U5sxSCZl6" slidebank="false" type="slide">example of effective communication example topic: impact of digital health on chronic condition management communication techniques: use relatable stories to illustrate benefits. focus on practical takeaways for the audience. simplify complex data for accessibility</slidetext>
+      <slidetext slideid="69NLDoW8Y6I.6ThKtlwWfME" slidebank="false" type="slide">module 5 summary covered techniques for writing and presenting research. discussed adapting content for different audiences. explored visual and storytelling methods for clarity.</slidetext>
+      <slidetext slideid="5WjwJDwDymZ.5aGuC69E0gV" slidebank="false" type="slide">module 6 cultural competency</slidetext>
+      <slidetext slideid="5WjwJDwDymZ.5nJhDJmpqb7" slidebank="false" type="slide">understanding cultural competency cultural competency: interacting effectively with diverse groups key aspects: challenge biases and stereotypes. develop cultural self-awareness. respect cultural differences without imposing values</slidetext>
+      <slidetext slideid="5WjwJDwDymZ.5al9P2SFKvp" slidebank="false" type="slide">example of cultural competency in research example: research on healthcare access among immigrants key considerations: recognise cultural barriers (e.g., language, trust in healthcare). adapt approach to respect cultural needs and concerns.</slidetext>
+      <slidetext slideid="5WjwJDwDymZ.6J5IswApK4s" slidebank="false" type="slide">example of cultural competency in research when conducting research on healthcare access among immigrant communities, which of the following actions demonstrates cultural competency? only using english-language materials, as it’s the primary language of the country. only using english-language materials, as it’s the primary language of the country. only using english-language materials, as it’s the primary language of the country. only using english-language materials, as it’s the primary language of the country. only using english-language materials, as it’s the primary language of the country. only using english-language materials, as it’s the primary language of the country. assuming that cultural differences won’t impact participants’ responses. assuming that cultural differences won’t impact participants’ responses. assuming that cultural differences won’t impact participants’ responses. assuming that cultural differences won’t impact participants’ responses. assuming that cultural differences won’t impact participants’ responses. assuming that cultural differences won’t impact participants’ responses. providing translated materials and interpreters to ensure participants understand and feel comfortable. providing translated materials and interpreters to ensure participants understand and feel comfortable. providing translated materials and interpreters to ensure participants understand and feel comfortable. providing translated materials and interpreters to ensure participants understand and feel comfortable. providing translated materials and interpreters to ensure participants understand and feel comfortable. providing translated materials and interpreters to ensure participants understand and feel comfortable. focusing solely on healthcare providers' perspectives, as they understand the system best. focusing solely on healthcare providers' perspectives, as they understand the system best. focusing solely on healthcare providers' perspectives, as they understand the system best. focusing solely on healthcare providers' perspectives, as they understand the system best. focusing solely on healthcare providers' perspectives, as they understand the system best. focusing solely on healthcare providers' perspectives, as they understand the system best.</slidetext>
+      <slidetext slideid="5WjwJDwDymZ.6Dc8mbuq5Sh" slidebank="false" type="slide">engaging with diverse communities build trust: listen actively, show empathy, be transparent collaborate: involve community members and seek their input adapt methods: align research practices with cultural norms</slidetext>
+      <slidetext slideid="5WjwJDwDymZ.5fwQ89haDmp" slidebank="false" type="slide">example of community engagement example: research on traditional healing practices engagement steps: collaborate with community leaders and elders. adapt methods to respect cultural practices. ensure the community’s perspective is represented</slidetext>
+      <slidetext slideid="5WjwJDwDymZ.5ZBKysj1a0K" slidebank="false" type="slide">example of community engagement when engaging with a community to research traditional healing practices, which action best demonstrates effective community engagement? collaborating with community leaders and elders to gain insights. collaborating with community leaders and elders to gain insights. collaborating with community leaders and elders to gain insights. collaborating with community leaders and elders to gain insights. collaborating with community leaders and elders to gain insights. collaborating with community leaders and elders to gain insights. assuming that the community will accept the research methods as they are. assuming that the community will accept the research methods as they are. assuming that the community will accept the research methods as they are. assuming that the community will accept the research methods as they are. assuming that the community will accept the research methods as they are. assuming that the community will accept the research methods as they are. using only standardized methods that have been successful in other communities. using only standardized methods that have been successful in other communities. using only standardized methods that have been successful in other communities. using only standardized methods that have been successful in other communities. using only standardized methods that have been successful in other communities. using only standardized methods that have been successful in other communities.</slidetext>
+      <slidetext slideid="5WjwJDwDymZ.5u825xepELd" slidebank="false" type="slide">overcoming cultural barriers language: provide translated materials and interpreters trust: partner with trusted community leaders or organizations cultural norms: adapt protocols to respect cultural practices</slidetext>
+      <slidetext slideid="5WjwJDwDymZ.6lBSYAtVQOU" slidebank="false" type="slide">example of overcoming cultural barriers example: conducting a mental health survey in a multicultural neighbourhood steps taken: translated questionnaires provided in multiple languages. partnered with local organizations to build trust and credibility. offered culturally sensitive support services to ensure participant comfort.</slidetext>
+      <slidetext slideid="5WjwJDwDymZ.65CZtaf8ASQ" slidebank="false" type="slide">example of overcoming cultural barriers in a multicultural neighbourhood, which action best demonstrates a culturally competent approach when conducting a mental health survey? using only the primary language of the country for all survey materials. using only the primary language of the country for all survey materials. using only the primary language of the country for all survey materials. using only the primary language of the country for all survey materials. using only the primary language of the country for all survey materials. using only the primary language of the country for all survey materials. partnering with local organizations and providing questionnaires in multiple languages. partnering with local organizations and providing questionnaires in multiple languages. partnering with local organizations and providing questionnaires in multiple languages. partnering with local organizations and providing questionnaires in multiple languages. partnering with local organizations and providing questionnaires in multiple languages. partnering with local organizations and providing questionnaires in multiple languages. relying on standardized methods without adapting to cultural sensitivities. relying on standardized methods without adapting to cultural sensitivities. relying on standardized methods without adapting to cultural sensitivities. relying on standardized methods without adapting to cultural sensitivities. relying on standardized methods without adapting to cultural sensitivities. relying on standardized methods without adapting to cultural sensitivities.</slidetext>
+      <slidetext slideid="5WjwJDwDymZ.5pNv2cpH4xN" slidebank="false" type="slide">ensuring ethical conduct informed consent privacy and confidentiality addressing power dynamics clearly explain the study’s purpose, risks, and benefits in a way participants fully understand, using culturally appropriate language and methods  safeguard personal information according to both cultural expectations and legal standards to build trust and respect participants’ privacy  be mindful of potential imbalances between researcher and participant, promoting respectful, equitable practices to create a safe, inclusive environment </slidetext>
+      <slidetext slideid="5WjwJDwDymZ.6kEW7tdAYoK" slidebank="false" type="slide">example of ethical conduct example: interviewing individuals with mental health challenges ethical steps: ensure informed consent with clear, respectful explanations. create a safe, non-judgmental environment for open sharing. protect privacy and confidentiality throughout the process.</slidetext>
+      <slidetext slideid="5WjwJDwDymZ.5bXhK0mOkn2" slidebank="false" type="slide">module 6 summary explored cultural competency in research. learned strategies for engaging diverse communities. discussed overcoming cultural barriers and ethical practices</slidetext>
+      <slidetext slideid="6SZZvwdaiKm.6eUm6D4p6Le" slidebank="false" type="slide">module 8 community engagement and collaboration in research</slidetext>
+      <slidetext slideid="6SZZvwdaiKm.6KOXjoQ43od" slidebank="false" type="slide">understanding community engagement community engagement: actively involving the community in research key aspects: build trust and rapport identify key stakeholders ensure representation integrate community knowledge establish open, respectful relationships  engage local leaders and representatives who can provide valuable insights  include diverse voices to reflect the community’s needs and perspectives  incorporate local insights and expertise into research design and implementation </slidetext>
+      <slidetext slideid="6SZZvwdaiKm.68IyMae8XIl" slidebank="false" type="slide">example of community engagement example: co-designing research with a local community organization engagement steps: collaborate with community leaders to identify relevant research topics. involve community members as active participants in the research process. regularly consult with the community to refine and adjust research methods.</slidetext>
+      <slidetext slideid="6SZZvwdaiKm.6hGpjXLOiSY" slidebank="false" type="slide">example of community engagement which of the following actions best demonstrates effective community engagement in a research project? conducting research independently and sharing the results with the community only at the end. conducting research independently and sharing the results with the community only at the end. conducting research independently and sharing the results with the community only at the end. conducting research independently and sharing the results with the community only at the end. conducting research independently and sharing the results with the community only at the end. conducting research independently and sharing the results with the community only at the end. collaborating with community leaders to identify relevant topics and involving community members as active participants. collaborating with community leaders to identify relevant topics and involving community members as active participants. collaborating with community leaders to identify relevant topics and involving community members as active participants. collaborating with community leaders to identify relevant topics and involving community members as active participants. collaborating with community leaders to identify relevant topics and involving community members as active participants. collaborating with community leaders to identify relevant topics and involving community members as active participants. relying solely on the researcher’s expertise to decide the focus and methods of the research. relying solely on the researcher’s expertise to decide the focus and methods of the research. relying solely on the researcher’s expertise to decide the focus and methods of the research. relying solely on the researcher’s expertise to decide the focus and methods of the research. relying solely on the researcher’s expertise to decide the focus and methods of the research. relying solely on the researcher’s expertise to decide the focus and methods of the research. conducting research without consulting the community to avoid influencing their responses. conducting research without consulting the community to avoid influencing their responses. conducting research without consulting the community to avoid influencing their responses. conducting research without consulting the community to avoid influencing their responses. conducting research without consulting the community to avoid influencing their responses. conducting research without consulting the community to avoid influencing their responses.</slidetext>
+      <slidetext slideid="6SZZvwdaiKm.6eMH3xa63L4" slidebank="false" type="slide">benefits of community engagement relevance trust and credibility co-creation of knowledge improved impact research findings are directly applicable to community needs  building genuine relationships fosters trust and increases community buy-in  diverse perspectives lead to richer insights and more comprehensive outcomes  research outcomes are more likely to be utilised and valued by the community </slidetext>
+      <slidetext slideid="6SZZvwdaiKm.6ZmydKuadut" slidebank="false" type="slide">example of benefits of community engagement example: gathering insights through community consultations benefits observed: increased relevance enhanced trust richer data higher utilisation</slidetext>
+      <slidetext slideid="6SZZvwdaiKm.6jVHkVhFCrA" slidebank="false" type="slide">example of community engagement which of the following is a key benefit of conducting community consultations in research? ensuring the research remains entirely researcher-focused. ensuring the research remains entirely researcher-focused. ensuring the research remains entirely researcher-focused. ensuring the research remains entirely researcher-focused. ensuring the research remains entirely researcher-focused. ensuring the research remains entirely researcher-focused. building trust and gathering diverse insights that increase the relevance and impact of the research. building trust and gathering diverse insights that increase the relevance and impact of the research. building trust and gathering diverse insights that increase the relevance and impact of the research. building trust and gathering diverse insights that increase the relevance and impact of the research. building trust and gathering diverse insights that increase the relevance and impact of the research. building trust and gathering diverse insights that increase the relevance and impact of the research. limiting community input to avoid complicating the research process. limiting community input to avoid complicating the research process. limiting community input to avoid complicating the research process. limiting community input to avoid complicating the research process. limiting community input to avoid complicating the research process. limiting community input to avoid complicating the research process. conducting research without sharing findings back with the community. conducting research without sharing findings back with the community. conducting research without sharing findings back with the community. conducting research without sharing findings back with the community. conducting research without sharing findings back with the community. conducting research without sharing findings back with the community.</slidetext>
+      <slidetext slideid="6SZZvwdaiKm.6V8sM1UeL42" slidebank="false" type="slide">collaborative research approaches collaborative research: shared decision-making and equal partnerships key elements: value diverse knowledge open communication co-design capacity building recognise and integrate local knowledge and expertise alongside academic insights  maintain regular, transparent communication with community partners  work with the community to jointly develop research questions, methods, and solutions  support the community’s ability to participate and lead in research processes </slidetext>
+      <slidetext slideid="6SZZvwdaiKm.6jUyrBPj7VZ" slidebank="false" type="slide">example of collaborative research example: partnering with a grassroots organization on healthcare access research collaborative actions: jointly identify research goals co-design research methods build local research capacity regular updates and feedback</slidetext>
+      <slidetext slideid="6SZZvwdaiKm.6AxLXczIK8E" slidebank="false" type="slide">ethical considerations in community engagement ethical engagement: ensuring respectful, fair, and transparent research practices key ethical principles: respect cultural values protect privacy and confidentiality informed consent continuous ethical review understand and honour the community’s beliefs, customs, and practices  safeguard personal information and handle data in accordance with cultural and legal standards  clearly explain research goals, risks, and benefits in accessible, culturally appropriate language  regularly assess and adjust research activities to maintain ethical standards throughout the project </slidetext>
+      <slidetext slideid="6SZZvwdaiKm.68yy18XTdiY" slidebank="false" type="slide">example of ethical engagement example: conducting research with a culturally diverse community ethical actions taken cultural sensitivity training transparent consent process privacy safeguards regular community check-ins</slidetext>
+      <slidetext slideid="6SZZvwdaiKm.5cQyakr7t62" slidebank="false" type="slide">module 8 summary covered community engagement principles and collaborative approaches. discussed benefits of involving the community in research. explored ethical considerations essential for respectful research practices.</slidetext>
+      <slidetext slideid="5znYfnxBCbj.5ecbt0JZwpj" slidebank="false" type="slide">incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue  what is the purpose of informed consent in research? to ensure confidentiality to ensure confidentiality to ensure confidentiality to ensure confidentiality to ensure confidentiality to ensure confidentiality to protect participants from harm to protect participants from harm to protect participants from harm to protect participants from harm to protect participants from harm to protect participants from harm to obtain permission from the funding agency to obtain permission from the funding agency to obtain permission from the funding agency to obtain permission from the funding agency to obtain permission from the funding agency to obtain permission from the funding agency to guarantee the accuracy of research findings to guarantee the accuracy of research findings to guarantee the accuracy of research findings to guarantee the accuracy of research findings to guarantee the accuracy of research findings to guarantee the accuracy of research findings</slidetext>
+      <slidetext slideid="5znYfnxBCbj.68geZMgj410" slidebank="false" type="slide">incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue  which of the following is an example of maintaining participant confidentiality? sharing research data with the general public sharing research data with the general public sharing research data with the general public sharing research data with the general public sharing research data with the general public sharing research data with the general public using participants' real names in research reports using participants' real names in research reports using participants' real names in research reports using participants' real names in research reports using participants' real names in research reports using participants' real names in research reports storing research data on a secure server storing research data on a secure server storing research data on a secure server storing research data on a secure server storing research data on a secure server storing research data on a secure server discussing research findings with anyone who asks discussing research findings with anyone who asks discussing research findings with anyone who asks discussing research findings with anyone who asks discussing research findings with anyone who asks discussing research findings with anyone who asks</slidetext>
+      <slidetext slideid="5znYfnxBCbj.6Qe7zokUipD" slidebank="false" type="slide">incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue  what are some strategies for resolving ethical dilemmas in research? ignoring the issue and proceeding with the research ignoring the issue and proceeding with the research ignoring the issue and proceeding with the research ignoring the issue and proceeding with the research ignoring the issue and proceeding with the research ignoring the issue and proceeding with the research seeking guidance from research participants seeking guidance from research participants seeking guidance from research participants seeking guidance from research participants seeking guidance from research participants seeking guidance from research participants consulting with a supervisor or ethics committee consulting with a supervisor or ethics committee consulting with a supervisor or ethics committee consulting with a supervisor or ethics committee consulting with a supervisor or ethics committee consulting with a supervisor or ethics committee changing the research findings to align with ethical standards changing the research findings to align with ethical standards changing the research findings to align with ethical standards changing the research findings to align with ethical standards changing the research findings to align with ethical standards changing the research findings to align with ethical standards</slidetext>
+      <slidetext slideid="5znYfnxBCbj.5mYg2rFmLK1" slidebank="false" type="slide">incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue  what is the purpose of community engagement in research? to make research findings more complicated to make research findings more complicated to make research findings more complicated to make research findings more complicated to make research findings more complicated to make research findings more complicated to involve the community in decision-making to involve the community in decision-making to involve the community in decision-making to involve the community in decision-making to involve the community in decision-making to involve the community in decision-making to exclude community members from the research process to exclude community members from the research process to exclude community members from the research process to exclude community members from the research process to exclude community members from the research process to exclude community members from the research process to increase the cost and duration of research projects to increase the cost and duration of research projects to increase the cost and duration of research projects to increase the cost and duration of research projects to increase the cost and duration of research projects to increase the cost and duration of research projects</slidetext>
+      <slidetext slideid="5znYfnxBCbj.6EyogJZTQcE" slidebank="false" type="slide">incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue  which of the following is a benefit of community engagement in research? limited perspectives and narrow insights limited perspectives and narrow insights limited perspectives and narrow insights limited perspectives and narrow insights limited perspectives and narrow insights limited perspectives and narrow insights increased trust and credibility between researchers and the community increased trust and credibility between researchers and the community increased trust and credibility between researchers and the community increased trust and credibility between researchers and the community increased trust and credibility between researchers and the community increased trust and credibility between researchers and the community lack of relevance and applicability of research findings lack of relevance and applicability of research findings lack of relevance and applicability of research findings lack of relevance and applicability of research findings lack of relevance and applicability of research findings lack of relevance and applicability of research findings exclusion of community members from the research process exclusion of community members from the research process exclusion of community members from the research process exclusion of community members from the research process exclusion of community members from the research process exclusion of community members from the research process</slidetext>
+      <slidetext slideid="5znYfnxBCbj.5i8jsh8NBCO" slidebank="false" type="slide">incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue  what are some key elements of collaborative research approaches? minimizing community involvement and input minimizing community involvement and input minimizing community involvement and input minimizing community involvement and input minimizing community involvement and input minimizing community involvement and input recognizing and valuing diverse knowledge systems recognizing and valuing diverse knowledge systems recognizing and valuing diverse knowledge systems recognizing and valuing diverse knowledge systems recognizing and valuing diverse knowledge systems recognizing and valuing diverse knowledge systems maintaining a hierarchical relationship between researchers and the community maintaining a hierarchical relationship between researchers and the community maintaining a hierarchical relationship between researchers and the community maintaining a hierarchical relationship between researchers and the community maintaining a hierarchical relationship between researchers and the community maintaining a hierarchical relationship between researchers and the community keeping community partners out of the decision-making process keeping community partners out of the decision-making process keeping community partners out of the decision-making process keeping community partners out of the decision-making process keeping community partners out of the decision-making process keeping community partners out of the decision-making process</slidetext>
+      <slidetext slideid="5znYfnxBCbj.6IHtSPDqqSP" slidebank="false" type="slide">incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue  what are some ethical considerations in community engagement? disregarding community values and norms disregarding community values and norms disregarding community values and norms disregarding community values and norms disregarding community values and norms disregarding community values and norms ensuring informed consent and clear communication ensuring informed consent and clear communication ensuring informed consent and clear communication ensuring informed consent and clear communication ensuring informed consent and clear communication ensuring informed consent and clear communication maintaining secrecy about research goals and processes maintaining secrecy about research goals and processes maintaining secrecy about research goals and processes maintaining secrecy about research goals and processes maintaining secrecy about research goals and processes maintaining secrecy about research goals and processes excluding community members from the research activities excluding community members from the research activities excluding community members from the research activities excluding community members from the research activities excluding community members from the research activities excluding community members from the research activities</slidetext>
+      <slidetext slideid="5znYfnxBCbj.6ZfVBtCxjPw" slidebank="false" type="slide">incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue   fill in the blank ______ is a cornerstone of ethical research, ensuring participants understand the research project, its purpose, and their rights before participating.</slidetext>
+      <slidetext slideid="5znYfnxBCbj.6arXwltHmUk" slidebank="false" type="slide">incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue  which of the following are essential components of cultural competency in research? (select all that apply) recognizing and challenging cultural biases recognizing and challenging cultural biases recognizing and challenging cultural biases recognizing and challenging cultural biases recognizing and challenging cultural biases recognizing and challenging cultural biases prioritizing quantitative data over qualitative data prioritizing quantitative data over qualitative data prioritizing quantitative data over qualitative data prioritizing quantitative data over qualitative data prioritizing quantitative data over qualitative data prioritizing quantitative data over qualitative data developing cultural self-awareness developing cultural self-awareness developing cultural self-awareness developing cultural self-awareness developing cultural self-awareness developing cultural self-awareness enforcing a single cultural perspective on all participants enforcing a single cultural perspective on all participants enforcing a single cultural perspective on all participants enforcing a single cultural perspective on all participants enforcing a single cultural perspective on all participants enforcing a single cultural perspective on all participants respecting cultural differences respecting cultural differences respecting cultural differences respecting cultural differences respecting cultural differences respecting cultural differences</slidetext>
+      <slidetext slideid="5znYfnxBCbj.5Y7ODS61Eur" slidebank="false" type="slide">incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue  match each term with its correct description. anonymity removing identifying information from participant data informed consent obtaining voluntary agreement from participants to join the research data security using secure methods to store participant information triangulation analyzing both qualitative and quantitative data</slidetext>
+    </search>
+  </nav_data>
+  <resource_data description="" />
+  <transcript_data>
+    <slidetranscripts>
+      <slidetranscript slideid="6AzysAz47mY.5aoG9H2w2XN" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="0">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Welcome to our first training, The Nature of Research. Today, we’ll discuss how research empowers local communities. Our project aims to equip community members, especially those with lived experience, to become skilled Community Peer Researchers (CPRs). This training will help them conduct meaningful research that reflects their own experiences, fostering both empowerment and ownership. Let’s dive into the core aspects of research together."&gt;
+        &lt;Style FontFamily="+major" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5irHc7mJkHi.6Amh6AOgR9d" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="1">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Let’s go over our presentation outline. We’ll start with an introduction to the scientific methods, then explore The Nature of Research, covering different types and their significance. Next, we’ll look at general research types, followed by a focus on identifying research problems and crafting research questions. This structure will help us understand the basics of research and its role in community empowerment."&gt;
+        &lt;Style FontFamily="+major" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5irHc7mJkHi.5bDueFVkrCh" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="A research problem is an issue we want to study, usually something unsatisfactory that needs change. Research problems are important as they help us focus on areas for improvement, challenges to solve, and questions to answer."&gt;
+        &lt;Style FontFamily="+major" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5irHc7mJkHi.6E28Z6yNAcE" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="A research problem is an issue we want to study, usually something unsatisfactory that needs change. Research problems are important as they help us focus on areas for improvement, challenges to solve, and questions to answer."&gt;
+        &lt;Style FontFamily="+major" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5irHc7mJkHi.6DhAPeq8E7M" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="A research problem is an issue we want to study, usually something unsatisfactory that needs change. Research problems are important as they help us focus on areas for improvement, challenges to solve, and questions to answer."&gt;
+        &lt;Style FontFamily="+major" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5irHc7mJkHi.6gGTwwhPV6X" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="A research problem is an issue we want to study, usually something unsatisfactory that needs change. Research problems are important as they help us focus on areas for improvement, challenges to solve, and questions to answer."&gt;
+        &lt;Style FontFamily="+major" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5irHc7mJkHi.6QCDwg1bdFr" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="A research problem is an issue we want to study, usually something unsatisfactory that needs change. Research problems are important as they help us focus on areas for improvement, challenges to solve, and questions to answer."&gt;
+        &lt;Style FontFamily="+major" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5irHc7mJkHi.6Dk5cImQZOM" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="A research problem is an issue we want to study, usually something unsatisfactory that needs change. Research problems are important as they help us focus on areas for improvement, challenges to solve, and questions to answer."&gt;
+        &lt;Style FontFamily="+major" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5irHc7mJkHi.68Jpeojn5A4" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="A research problem is an issue we want to study, usually something unsatisfactory that needs change. Research problems are important as they help us focus on areas for improvement, challenges to solve, and questions to answer."&gt;
+        &lt;Style FontFamily="+major" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5irHc7mJkHi.5eKQTv5gznk" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="A research problem is an issue we want to study, usually something unsatisfactory that needs change. Research problems are important as they help us focus on areas for improvement, challenges to solve, and questions to answer."&gt;
+        &lt;Style FontFamily="+major" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="68HEAOKgemV.5VAZ73VziKY" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="1">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Let’s go over our presentation outline. We’ll start with an introduction to the scientific methods, then explore The Nature of Research, covering different types and their significance. Next, we’ll look at general research types, followed by a focus on identifying research problems and crafting research questions. This structure will help us understand the basics of research and its role in community empowerment."&gt;
+        &lt;Style FontFamily="+major" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="68HEAOKgemV.5VKvC2MPpl7" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="A research problem is an issue we want to study, usually something unsatisfactory that needs change. Research problems are important as they help us focus on areas for improvement, challenges to solve, and questions to answer."&gt;
+        &lt;Style FontFamily="+major" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="68HEAOKgemV.6Ok8JnSgCCg" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="A research problem is an issue we want to study, usually something unsatisfactory that needs change. Research problems are important as they help us focus on areas for improvement, challenges to solve, and questions to answer."&gt;
+        &lt;Style FontFamily="+major" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="68HEAOKgemV.6mNYwmb4g5R" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="A research problem is an issue we want to study, usually something unsatisfactory that needs change. Research problems are important as they help us focus on areas for improvement, challenges to solve, and questions to answer."&gt;
+        &lt;Style FontFamily="+major" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="68HEAOKgemV.5gSnp3CU87e" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="A research problem is an issue we want to study, usually something unsatisfactory that needs change. Research problems are important as they help us focus on areas for improvement, challenges to solve, and questions to answer."&gt;
+        &lt;Style FontFamily="+major" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="68HEAOKgemV.6eVOe5yGvHb" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="A research problem is an issue we want to study, usually something unsatisfactory that needs change. Research problems are important as they help us focus on areas for improvement, challenges to solve, and questions to answer."&gt;
+        &lt;Style FontFamily="+major" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="68HEAOKgemV.6Ou2ZbZhwz4" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="A research problem is an issue we want to study, usually something unsatisfactory that needs change. Research problems are important as they help us focus on areas for improvement, challenges to solve, and questions to answer."&gt;
+        &lt;Style FontFamily="+major" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="68HEAOKgemV.5wZbqJ08zMg" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="A research problem is an issue we want to study, usually something unsatisfactory that needs change. Research problems are important as they help us focus on areas for improvement, challenges to solve, and questions to answer."&gt;
+        &lt;Style FontFamily="+major" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="68HEAOKgemV.6hpUsqyXowB" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="A research problem is an issue we want to study, usually something unsatisfactory that needs change. Research problems are important as they help us focus on areas for improvement, challenges to solve, and questions to answer."&gt;
+        &lt;Style FontFamily="+major" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="68HEAOKgemV.6L5gbPKUC5A" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="A research problem is an issue we want to study, usually something unsatisfactory that needs change. Research problems are important as they help us focus on areas for improvement, challenges to solve, and questions to answer."&gt;
+        &lt;Style FontFamily="+major" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="69NLDoW8Y6I.5a89RiSaNie" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="1">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Let’s go over our presentation outline. We’ll start with an introduction to the scientific methods, then explore The Nature of Research, covering different types and their significance. Next, we’ll look at general research types, followed by a focus on identifying research problems and crafting research questions. This structure will help us understand the basics of research and its role in community empowerment."&gt;
+        &lt;Style FontFamily="+major" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="69NLDoW8Y6I.5q10uuGL3b1" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="A research problem is an issue we want to study, usually something unsatisfactory that needs change. Research problems are important as they help us focus on areas for improvement, challenges to solve, and questions to answer."&gt;
+        &lt;Style FontFamily="+major" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="69NLDoW8Y6I.5bxllSyFLLU" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="A research problem is an issue we want to study, usually something unsatisfactory that needs change. Research problems are important as they help us focus on areas for improvement, challenges to solve, and questions to answer."&gt;
+        &lt;Style FontFamily="+major" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="69NLDoW8Y6I.5X1YrMrfVcP" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="A research problem is an issue we want to study, usually something unsatisfactory that needs change. Research problems are important as they help us focus on areas for improvement, challenges to solve, and questions to answer."&gt;
+        &lt;Style FontFamily="+major" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="69NLDoW8Y6I.5yECwZCd7Xi" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="A research problem is an issue we want to study, usually something unsatisfactory that needs change. Research problems are important as they help us focus on areas for improvement, challenges to solve, and questions to answer."&gt;
+        &lt;Style FontFamily="+major" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="69NLDoW8Y6I.6KqdyL71GsO" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="A research problem is an issue we want to study, usually something unsatisfactory that needs change. Research problems are important as they help us focus on areas for improvement, challenges to solve, and questions to answer."&gt;
+        &lt;Style FontFamily="+major" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="69NLDoW8Y6I.5pXy4G4938C" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="A research problem is an issue we want to study, usually something unsatisfactory that needs change. Research problems are important as they help us focus on areas for improvement, challenges to solve, and questions to answer."&gt;
+        &lt;Style FontFamily="+major" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="69NLDoW8Y6I.6oR9N6nJXKC" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="A research problem is an issue we want to study, usually something unsatisfactory that needs change. Research problems are important as they help us focus on areas for improvement, challenges to solve, and questions to answer."&gt;
+        &lt;Style FontFamily="+major" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="69NLDoW8Y6I.63U5sxSCZl6" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="A research problem is an issue we want to study, usually something unsatisfactory that needs change. Research problems are important as they help us focus on areas for improvement, challenges to solve, and questions to answer."&gt;
+        &lt;Style FontFamily="+major" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="69NLDoW8Y6I.6ThKtlwWfME" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="A research problem is an issue we want to study, usually something unsatisfactory that needs change. Research problems are important as they help us focus on areas for improvement, challenges to solve, and questions to answer."&gt;
+        &lt;Style FontFamily="+major" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5WjwJDwDymZ.5aGuC69E0gV" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="1">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Let’s go over our presentation outline. We’ll start with an introduction to the scientific methods, then explore The Nature of Research, covering different types and their significance. Next, we’ll look at general research types, followed by a focus on identifying research problems and crafting research questions. This structure will help us understand the basics of research and its role in community empowerment."&gt;
+        &lt;Style FontFamily="+major" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5WjwJDwDymZ.5nJhDJmpqb7" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="A research problem is an issue we want to study, usually something unsatisfactory that needs change. Research problems are important as they help us focus on areas for improvement, challenges to solve, and questions to answer."&gt;
+        &lt;Style FontFamily="+major" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5WjwJDwDymZ.5al9P2SFKvp" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="A research problem is an issue we want to study, usually something unsatisfactory that needs change. Research problems are important as they help us focus on areas for improvement, challenges to solve, and questions to answer."&gt;
+        &lt;Style FontFamily="+major" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5WjwJDwDymZ.6J5IswApK4s" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="A research problem is an issue we want to study, usually something unsatisfactory that needs change. Research problems are important as they help us focus on areas for improvement, challenges to solve, and questions to answer."&gt;
+        &lt;Style FontFamily="+major" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5WjwJDwDymZ.6Dc8mbuq5Sh" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="A research problem is an issue we want to study, usually something unsatisfactory that needs change. Research problems are important as they help us focus on areas for improvement, challenges to solve, and questions to answer."&gt;
+        &lt;Style FontFamily="+major" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5WjwJDwDymZ.5fwQ89haDmp" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="A research problem is an issue we want to study, usually something unsatisfactory that needs change. Research problems are important as they help us focus on areas for improvement, challenges to solve, and questions to answer."&gt;
+        &lt;Style FontFamily="+major" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5WjwJDwDymZ.5ZBKysj1a0K" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="A research problem is an issue we want to study, usually something unsatisfactory that needs change. Research problems are important as they help us focus on areas for improvement, challenges to solve, and questions to answer."&gt;
+        &lt;Style FontFamily="+major" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5WjwJDwDymZ.5u825xepELd" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="A research problem is an issue we want to study, usually something unsatisfactory that needs change. Research problems are important as they help us focus on areas for improvement, challenges to solve, and questions to answer."&gt;
+        &lt;Style FontFamily="+major" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5WjwJDwDymZ.6lBSYAtVQOU" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="A research problem is an issue we want to study, usually something unsatisfactory that needs change. Research problems are important as they help us focus on areas for improvement, challenges to solve, and questions to answer."&gt;
+        &lt;Style FontFamily="+major" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5WjwJDwDymZ.65CZtaf8ASQ" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="A research problem is an issue we want to study, usually something unsatisfactory that needs change. Research problems are important as they help us focus on areas for improvement, challenges to solve, and questions to answer."&gt;
+        &lt;Style FontFamily="+major" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5WjwJDwDymZ.5pNv2cpH4xN" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="A research problem is an issue we want to study, usually something unsatisfactory that needs change. Research problems are important as they help us focus on areas for improvement, challenges to solve, and questions to answer."&gt;
+        &lt;Style FontFamily="+major" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5WjwJDwDymZ.6kEW7tdAYoK" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="A research problem is an issue we want to study, usually something unsatisfactory that needs change. Research problems are important as they help us focus on areas for improvement, challenges to solve, and questions to answer."&gt;
+        &lt;Style FontFamily="+major" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5WjwJDwDymZ.5bXhK0mOkn2" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="A research problem is an issue we want to study, usually something unsatisfactory that needs change. Research problems are important as they help us focus on areas for improvement, challenges to solve, and questions to answer."&gt;
+        &lt;Style FontFamily="+major" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6SZZvwdaiKm.6eUm6D4p6Le" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="1">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Let’s go over our presentation outline. We’ll start with an introduction to the scientific methods, then explore The Nature of Research, covering different types and their significance. Next, we’ll look at general research types, followed by a focus on identifying research problems and crafting research questions. This structure will help us understand the basics of research and its role in community empowerment."&gt;
+        &lt;Style FontFamily="+major" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6SZZvwdaiKm.6KOXjoQ43od" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="A research problem is an issue we want to study, usually something unsatisfactory that needs change. Research problems are important as they help us focus on areas for improvement, challenges to solve, and questions to answer."&gt;
+        &lt;Style FontFamily="+major" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6SZZvwdaiKm.68IyMae8XIl" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="A research problem is an issue we want to study, usually something unsatisfactory that needs change. Research problems are important as they help us focus on areas for improvement, challenges to solve, and questions to answer."&gt;
+        &lt;Style FontFamily="+major" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6SZZvwdaiKm.6hGpjXLOiSY" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="A research problem is an issue we want to study, usually something unsatisfactory that needs change. Research problems are important as they help us focus on areas for improvement, challenges to solve, and questions to answer."&gt;
+        &lt;Style FontFamily="+major" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6SZZvwdaiKm.6eMH3xa63L4" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="A research problem is an issue we want to study, usually something unsatisfactory that needs change. Research problems are important as they help us focus on areas for improvement, challenges to solve, and questions to answer."&gt;
+        &lt;Style FontFamily="+major" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6SZZvwdaiKm.6ZmydKuadut" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="A research problem is an issue we want to study, usually something unsatisfactory that needs change. Research problems are important as they help us focus on areas for improvement, challenges to solve, and questions to answer."&gt;
+        &lt;Style FontFamily="+major" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6SZZvwdaiKm.6jVHkVhFCrA" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="A research problem is an issue we want to study, usually something unsatisfactory that needs change. Research problems are important as they help us focus on areas for improvement, challenges to solve, and questions to answer."&gt;
+        &lt;Style FontFamily="+major" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6SZZvwdaiKm.6V8sM1UeL42" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="A research problem is an issue we want to study, usually something unsatisfactory that needs change. Research problems are important as they help us focus on areas for improvement, challenges to solve, and questions to answer."&gt;
+        &lt;Style FontFamily="+major" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6SZZvwdaiKm.6jUyrBPj7VZ" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="A research problem is an issue we want to study, usually something unsatisfactory that needs change. Research problems are important as they help us focus on areas for improvement, challenges to solve, and questions to answer."&gt;
+        &lt;Style FontFamily="+major" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6SZZvwdaiKm.6AxLXczIK8E" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="A research problem is an issue we want to study, usually something unsatisfactory that needs change. Research problems are important as they help us focus on areas for improvement, challenges to solve, and questions to answer."&gt;
+        &lt;Style FontFamily="+major" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6SZZvwdaiKm.68yy18XTdiY" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="A research problem is an issue we want to study, usually something unsatisfactory that needs change. Research problems are important as they help us focus on areas for improvement, challenges to solve, and questions to answer."&gt;
+        &lt;Style FontFamily="+major" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6SZZvwdaiKm.5cQyakr7t62" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="A research problem is an issue we want to study, usually something unsatisfactory that needs change. Research problems are important as they help us focus on areas for improvement, challenges to solve, and questions to answer."&gt;
+        &lt;Style FontFamily="+major" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+    </slidetranscripts>
+  </transcript_data>
+  <glossary_data>
+    <terms>
+      <term title="Anonymity">Hiding participant identities.</term>
+      <term title="Bias">Personal viewpoint affecting research.</term>
+      <term title="Bias Mitigation">Reducing influence of bias.</term>
+      <term title="Coding">Labeling data for analysis.</term>
+      <term title="Confidentiality">Protecting participant info.</term>
+      <term title="Control Group"> Unchanged group for comparison.</term>
+      <term title="Cultural Competency">Respecting cultural differences.</term>
+      <term title="Data Analysis">Processing collected data.</term>
+      <term title="Data Collection">Gathering research data.</term>
+      <term title="Data Security">Protecting data from misuse.</term>
+      <term title="Ethical Dilemmas">Conflicting ethical principles.</term>
+      <term title="Focus Group">Group discussion for data.</term>
+      <term title="Hypothesis">Proposed research explanation.</term>
+      <term title="Informed Consent">Voluntary agreement to participate.</term>
+      <term title="Intervention">Action to measure effects.</term>
+      <term title="Observation">Watching participants for data.</term>
+      <term title="Participant Selection">Choosing study participants.</term>
+      <term title="Pilot Study">Test run of research.</term>
+      <term title="Qualitative Analysis">Analyzing non-numerical data.</term>
+      <term title="Quantitative Analysis">Examining numerical data.</term>
+      <term title="Randomization">Random group assignment.</term>
+      <term title="Reliability">Consistency of results.</term>
+      <term title="Research Ethics">Moral principles in research.</term>
+      <term title="Sample Size"> Number of participants.</term>
+      <term title="Sampling">Selecting part of a population.</term>
+      <term title="Survey">Structured data collection.</term>
+      <term title="Triangulation">Verifying data accuracy.</term>
+      <term title="Validity">Accuracy of findings.</term>
+      <term title="Variables">Factors affecting study outcomes.</term>
+    </terms>
+  </glossary_data>
+</bwFrame>
